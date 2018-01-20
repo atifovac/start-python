@@ -8,6 +8,4 @@ multiMap = {
 
 print(multiMap)
 
-print_utils.print_test()
-
 print_utils.print_json(multiMap)

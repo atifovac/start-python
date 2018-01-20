@@ -4,18 +4,9 @@ def print_json(input_map):
     line = ''
     tab = 1
     for key, value in input_map.items():
-        for i in range(1, tab):
+        for i in range(0, tab):
             line = line + '\t'
         line = '{}{}: {},\n'.format(line, key, value)
-        line = line[:-1]
+    line = line[:-2]
     print(line)
     print('}')
-
-
-def print_test():
-    print('a')
-    print('\n')
-    print('b')
-    string = '\n\ths'
-    print(string)
-    print('b')
